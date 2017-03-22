@@ -96,10 +96,6 @@ ansi@^0.3.0, ansi@~0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/ansi/-/ansi-0.3.1.tgz#0c42d4fb17160d5a9af1e484bace1c66922c1b21"
 
-any-promise@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
-
 anymatch@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-1.3.0.tgz#a3e52fa39168c825ff57b0248126ce5a8ff95507"
@@ -595,9 +591,9 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-cz-conventional-changelog@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/cz-conventional-changelog/-/cz-conventional-changelog-1.2.0.tgz#2bca04964c8919b23f3fd6a89ef5e6008b31b3f8"
+cz-conventional-changelog@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/cz-conventional-changelog/-/cz-conventional-changelog-2.0.0.tgz#55a979afdfe95e7024879d2a0f5924630170b533"
   dependencies:
     conventional-commit-types "^2.0.0"
     lodash.map "^4.5.1"
@@ -1229,9 +1225,9 @@ http-signature@~1.1.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-husky@^0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-0.13.1.tgz#11efc6fc10e0ec4e789776f6582be37d71ba4ccf"
+husky@^0.13.2:
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-0.13.2.tgz#9dcf212f88e61dba36f17be1a202ed61ff6c0661"
   dependencies:
     chalk "^1.1.3"
     find-parent-dir "^0.3.0"
@@ -1860,9 +1856,18 @@ normalize-package-data@^1.0.3:
     github-url-from-username-repo "^1.0.0"
     semver "2 || 3 || 4"
 
-normalize-package-data@^2.3.2, normalize-package-data@^2.3.4, normalize-package-data@^2.3.5, "normalize-package-data@~1.0.1 || ^2.0.0":
+normalize-package-data@^2.3.2, normalize-package-data@^2.3.4, "normalize-package-data@~1.0.1 || ^2.0.0":
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.3.5.tgz#8d924f142960e1777e7ffe170543631cc7cb02df"
+  dependencies:
+    hosted-git-info "^2.1.4"
+    is-builtin-module "^1.0.0"
+    semver "2 || 3 || 4 || 5"
+    validate-npm-package-license "^3.0.1"
+
+normalize-package-data@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.3.6.tgz#498fa420c96401f787402ba21e600def9f981fff"
   dependencies:
     hosted-git-info "^2.1.4"
     is-builtin-module "^1.0.0"
@@ -2137,9 +2142,9 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~1.0.4"
 
-re-start@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/re-start/-/re-start-1.8.1.tgz#de7f65169af903efe9616c3d9d05f2ef395d04fd"
+re-start@^1.8.8:
+  version "1.8.8"
+  resolved "https://registry.yarnpkg.com/re-start/-/re-start-1.8.8.tgz#b59c93bd7eb8373e5287aa2df2d8f9b4e918ad96"
   dependencies:
     start "^5.0.0"
     start-babel "^3.0.0"
@@ -2152,11 +2157,11 @@ re-start@^1.8.1:
     start-mocha "^3.0.0"
     start-pretty-reporter "^0.3.0"
     start-read "^0.3.0"
-    start-release "^1.3.6"
-    start-split "^1.0.3"
-    start-typescript "^1.1.4"
-    start-watch "^2.0.0"
-    start-write "^2.0.0"
+    start-release "^1.3.7"
+    start-split "^1.0.4"
+    start-typescript "^1.2.2"
+    start-watch "^3.0.0"
+    start-write "^2.0.2"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -2612,40 +2617,40 @@ start-read@^0.3.0:
     graceful-fs "^4.1.5"
     makethen "^0.1.0"
 
-start-release@^1.3.6:
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/start-release/-/start-release-1.3.6.tgz#a83375e329da121426617d0234cb91ca0581511a"
+start-release@^1.3.7:
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/start-release/-/start-release-1.3.7.tgz#f24a672936ddad392995811f0f921bdcd34ad56b"
   dependencies:
     nerf-dart "^1.0.0"
-    normalize-package-data "^2.3.5"
+    normalize-package-data "^2.3.6"
     npmconf "^2.1.2"
     semantic-release "^6.3.2"
 
-start-split@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/start-split/-/start-split-1.0.3.tgz#c9c3e27617e7eed8d97875ac890b049c16f342a7"
+start-split@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/start-split/-/start-split-1.0.4.tgz#4615d592b9ad4d52103d27ff85f44b9e0e6cdd44"
   dependencies:
     start "^5.1.0"
     start-concurrent "^0.1.0"
     start-input-connector "^0.2.0"
 
-start-typescript@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/start-typescript/-/start-typescript-1.1.4.tgz#1944601f2306b4e86a724da7959501a92b044a19"
+start-typescript@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/start-typescript/-/start-typescript-1.2.2.tgz#1c5a186feab735ab5eb691f7a6e9817ea1b197d9"
   dependencies:
-    tsconfig "^5.0.3"
-    typescript "~2.1.5"
+    tsconfig "^6.0.0"
+    typescript "^2.2.1"
     typescript-compiler "^1.4.1-2"
 
-start-watch@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/start-watch/-/start-watch-2.0.0.tgz#ce1eee190d574907fb4d51ad80eaa14781b4cd66"
+start-watch@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/start-watch/-/start-watch-3.0.0.tgz#04779e96737fbd98af6f322d916f496ab404c92c"
   dependencies:
     chokidar "^1.6.0"
 
-start-write@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/start-write/-/start-write-2.0.0.tgz#5eacc4d4ff4125870582528082cc118178a9a5c5"
+start-write@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/start-write/-/start-write-2.0.2.tgz#c7db352097c540d0780ce0eadf2437ff69a8debe"
   dependencies:
     graceful-fs "^4.1.5"
     makethen "^0.1.0"
@@ -2805,13 +2810,11 @@ tryit@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/tryit/-/tryit-1.0.3.tgz#393be730a9446fd1ead6da59a014308f36c289cb"
 
-tsconfig@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/tsconfig/-/tsconfig-5.0.3.tgz#5f4278e701800967a8fc383fd19648878f2a6e3a"
+tsconfig@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/tsconfig/-/tsconfig-6.0.0.tgz#6b0e8376003d7af1864f8df8f89dd0059ffcd032"
   dependencies:
-    any-promise "^1.3.0"
-    parse-json "^2.2.0"
-    strip-bom "^2.0.0"
+    strip-bom "^3.0.0"
     strip-json-comments "^2.0.0"
 
 tunnel-agent@~0.4.1:
@@ -2836,9 +2839,9 @@ typescript-compiler@^1.4.1-2:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/typescript-compiler/-/typescript-compiler-1.4.1.tgz#3639a276d7f3bc97ddbe121fd933713d475a9aa8"
 
-typescript@~2.1.5:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.1.6.tgz#40c7e6e9e5da7961b7718b55505f9cac9487a607"
+typescript@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.1.tgz#4862b662b988a4c8ff691cc7969622d24db76ae9"
 
 uglify-js@^2.6:
   version "2.7.5"

@@ -30,14 +30,14 @@
   "homepage": "https://github.com/effervescentia/devtools#readme",
   "dependencies": {
     "condition-circle": "^1.5.0",
-    "cz-conventional-changelog": "^1.2.0",
-    "husky": "^0.13.1",
-    "re-start": "^1.8.1"
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.13.2",
+    "re-start": "^1.8.8"
   },
   "peerDependencies": {
     "condition-circle": "^1.5.0",
-    "cz-conventional-changelog": "^1.2.0",
-    "husky": "^0.13.1",
-    "re-start": "^1.7.0"
+    "cz-conventional-changelog": "^2.0.0",
+    "husky": "^0.13.2",
+    "re-start": "^1.8.8"
   }
 }
