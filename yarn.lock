@@ -1225,9 +1225,9 @@ http-signature@~1.1.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-husky@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-0.13.2.tgz#9dcf212f88e61dba36f17be1a202ed61ff6c0661"
+husky@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-0.13.3.tgz#bc2066080badc8b8fe3516e881f5bc68a57052ff"
   dependencies:
     chalk "^1.1.3"
     find-parent-dir "^0.3.0"
@@ -1856,16 +1856,7 @@ normalize-package-data@^1.0.3:
     github-url-from-username-repo "^1.0.0"
     semver "2 || 3 || 4"
 
-normalize-package-data@^2.3.2, normalize-package-data@^2.3.4, "normalize-package-data@~1.0.1 || ^2.0.0":
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.3.5.tgz#8d924f142960e1777e7ffe170543631cc7cb02df"
-  dependencies:
-    hosted-git-info "^2.1.4"
-    is-builtin-module "^1.0.0"
-    semver "2 || 3 || 4 || 5"
-    validate-npm-package-license "^3.0.1"
-
-normalize-package-data@^2.3.6:
+normalize-package-data@^2.3.2, normalize-package-data@^2.3.4, normalize-package-data@^2.3.6, "normalize-package-data@~1.0.1 || ^2.0.0":
   version "2.3.6"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.3.6.tgz#498fa420c96401f787402ba21e600def9f981fff"
   dependencies:
@@ -2142,9 +2133,9 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~1.0.4"
 
-re-start@^1.8.8:
-  version "1.8.8"
-  resolved "https://registry.yarnpkg.com/re-start/-/re-start-1.8.8.tgz#b59c93bd7eb8373e5287aa2df2d8f9b4e918ad96"
+re-start@^1.8.9:
+  version "1.8.9"
+  resolved "https://registry.yarnpkg.com/re-start/-/re-start-1.8.9.tgz#d712f6fdcd1882152b76686e50b5be6b44038a23"
   dependencies:
     start "^5.0.0"
     start-babel "^3.0.0"
@@ -2157,9 +2148,9 @@ re-start@^1.8.8:
     start-mocha "^3.0.0"
     start-pretty-reporter "^0.3.0"
     start-read "^0.3.0"
-    start-release "^1.3.7"
-    start-split "^1.0.4"
-    start-typescript "^1.2.2"
+    start-release "^1.3.8"
+    start-split "^1.0.5"
+    start-typescript "^1.2.3"
     start-watch "^3.0.0"
     start-write "^2.0.2"
 
@@ -2617,26 +2608,26 @@ start-read@^0.3.0:
     graceful-fs "^4.1.5"
     makethen "^0.1.0"
 
-start-release@^1.3.7:
-  version "1.3.7"
-  resolved "https://registry.yarnpkg.com/start-release/-/start-release-1.3.7.tgz#f24a672936ddad392995811f0f921bdcd34ad56b"
+start-release@^1.3.8:
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/start-release/-/start-release-1.3.8.tgz#41c35858298127fb3132e9e229181702e442dde5"
   dependencies:
     nerf-dart "^1.0.0"
     normalize-package-data "^2.3.6"
     npmconf "^2.1.2"
     semantic-release "^6.3.2"
 
-start-split@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/start-split/-/start-split-1.0.4.tgz#4615d592b9ad4d52103d27ff85f44b9e0e6cdd44"
+start-split@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/start-split/-/start-split-1.0.5.tgz#43e8dfa48041a951429422317927fae038019ff4"
   dependencies:
     start "^5.1.0"
     start-concurrent "^0.1.0"
     start-input-connector "^0.2.0"
 
-start-typescript@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/start-typescript/-/start-typescript-1.2.2.tgz#1c5a186feab735ab5eb691f7a6e9817ea1b197d9"
+start-typescript@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/start-typescript/-/start-typescript-1.2.3.tgz#e652a00b6c42cfbe0e793eb64322be2164e22b0e"
   dependencies:
     tsconfig "^6.0.0"
     typescript "^2.2.1"
