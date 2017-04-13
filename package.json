@@ -32,7 +32,7 @@
     "condition-circle": "^1.5.0",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.13.3",
-    "re-start": "^1.8.10"
+    "re-start": "^1.9.0"
   },
   "peerDependencies": {
     "condition-circle": "^1.5.0",
