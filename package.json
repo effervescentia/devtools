@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "start-runner -p re-start",
-    "test": "echo 'no tests'"
+    "test": "echo 'no tests'",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "files": [
     "index.js"
@@ -32,12 +34,14 @@
     "condition-circle": "^1.5.0",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.13.3",
-    "re-start": "^1.13.0"
+    "re-start": "^1.13.0",
+    "snyk": "^1.88.0"
   },
   "peerDependencies": {
     "condition-circle": "^1.5.0",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.13.3",
     "re-start": "^1.13.0"
-  }
+  },
+  "snyk": true
 }
