@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - re-start > start-mocha > mocha > debug:
+        patched: '2019-01-05T08:21:37.414Z'
+  'npm:hoek:20180212':
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > travis-ci > request > hawk > sntp > hoek:
+        patched: '2019-01-05T08:21:37.414Z'
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > hawk > boom > hoek:
+        patched: '2019-01-05T08:21:37.414Z'
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > hawk > sntp > hoek:
+        patched: '2019-01-05T08:21:37.414Z'
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > travis-ci > request > hawk > hoek:
+        patched: '2019-01-05T08:21:37.414Z'
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-01-05T08:21:37.414Z'
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > hawk > hoek:
+        patched: '2019-01-05T08:21:37.414Z'
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > travis-ci > request > hawk > boom > hoek:
+        patched: '2019-01-05T08:21:37.414Z'
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > travis-ci > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-01-05T08:21:37.414Z'
+  'npm:lodash:20180130':
+    - re-start > start-release > semantic-release > @semantic-release/release-notes-generator > conventional-changelog > lodash:
+        patched: '2019-01-05T08:21:37.414Z'
+  'npm:tunnel-agent:20170305':
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > tunnel-agent:
+        patched: '2019-01-05T08:21:37.414Z'
+    - re-start > start-release > semantic-release > @semantic-release/condition-travis > travis-deploy-once > travis-ci > request > tunnel-agent:
+        patched: '2019-01-05T08:21:37.414Z'
