@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/effervescentia/devtools#readme",
   "dependencies": {
-    "condition-circle": "^1.5.0",
+    "condition-circle": "^1.6.0",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.13.3",
     "re-start": "^1.13.0"
